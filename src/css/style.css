@@ -1,0 +1,742 @@
+* {
+    font-family: 'bourgeois';
+}
+
+body {
+    background-color: rgb(89, 89, 89);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/*--------------HEADER--------------*/
+header {
+    width: 100%;
+    height: 9.5%;
+    background-color: #18181C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left-box {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5em;
+    gap: 1em;
+}
+
+header .left-box .epic-container {
+    width: 10%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    transition: all 0.2s ease;
+}
+
+header .left-box .epic-container:hover {
+    cursor: pointer;
+    
+}
+
+header .left-box .epic-container .epic-logo {
+    width: 45%;
+}
+
+header .left-box .epic-container .arrow-icon {
+    width: 35%;
+    transition: all 0.2s ease;
+}
+
+header .left-box .epic-container .arrow-icon:hover {
+    transform: translateY(0.3em)
+}
+
+header .left-box hr {
+    height: 55%;
+    opacity: 15%;
+}
+
+header .left-box .rl-container {
+    width: 12%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .left-box .rl-container img {
+    width: 80%;
+}
+
+header .left-box .rl-container img:hover {
+    cursor: pointer;
+}
+
+header .left-box .menu-container {
+    width: 62%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .left-box .menu-container ul {
+    display: flex;
+    gap: 2em;
+}
+
+header .left-box .menu-container ul li a {
+    color: #959595;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    font-family: system-ui;
+    transition: all 0.2s ease;
+}
+
+header .left-box .menu-container ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+header .right-box {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+    gap: 0.5em;
+}
+
+header .right-box .search-container {
+    width: 20%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-box .search-container img {
+    width: 58%;
+    filter: brightness(75%);
+    transition: all 0.2s ease;
+}
+
+header .right-box .search-container img:hover {
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+header .right-box hr {
+    height: 55%;
+    opacity: 15%;
+}
+
+header .right-box .global-container {
+    width: 20%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-box .global-container img {
+    width: 45%;
+    filter: brightness(75%);
+    transition: all 0.2s ease;
+}
+
+header .right-box .global-container img:hover {
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+header .right-box .btn-container {
+    width: 46%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-box .btn-container button {
+    border: none;
+    width: 85%;
+    height: 72%;
+    background-color: #FFA133;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+header .right-box .btn-container button:hover {
+    background-color: #F58220;
+}
+
+/*--------------SECTION 1--------------*/
+.section-1 {
+    width: 100%;
+    height: 90.5%;
+    background-color: #ffa033;
+
+}
+
+.section-1 .video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .video-container video {
+    width: 100%;
+    height: 99.4%;
+    object-fit: cover;
+}
+
+.section-1 .element {
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    position: absolute;
+}
+
+.section-1 .video-container .text-btn-container {
+    width: 42%;
+    height: 32%;
+    position: absolute;
+    top: 23em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.8em;
+}
+
+.section-1 .video-container .text-btn-container .title-container {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .video-container .text-btn-container .title-container h1 {
+    font-size: 3em;
+    word-spacing: 0.2em;
+    color: #e0e0e0;
+}
+
+.section-1 .video-container .text-btn-container .paragraph-container {
+    width: 95%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .video-container .text-btn-container .paragraph-container p {
+    font-size: 1.4em;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.section-1 .video-container .text-btn-container .btn-container {
+    width: 75%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    transform: skew(-12deg);
+    position: relative;
+    left: 0.5em;
+}
+
+.section-1 .video-container .text-btn-container .btn-container button {
+    border: none;
+    width: 9em;
+    height: 2.6em;
+    background-color: #E26B17;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.section-1 .video-container .text-btn-container .btn-container button:hover {
+    filter: brightness(85%);
+}
+
+.section-1 .video-container .text-btn-container .btn-container button:nth-child(1) {
+    width: 8em;
+}
+
+.section-1 .video-container .text-btn-container .btn-container button:nth-child(2) {
+    background-color: #307FE2;
+}
+
+/*--------------SECTION 2--------------*/
+.section-2 {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content-container {
+    width: 99.5%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 .content-container .gallery-container {
+    width: 99%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content-container .gallery-container .moldura-container {
+    width: 99.5%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.section-2 .content-container .gallery-container .moldura-container .moldura {
+    width: 33%;
+    height: 98%;
+    border-radius: 2px;
+}
+
+.section-2 .content-container .gallery-container .moldura-container .moldura:nth-child(1) {
+    background-image: url(../img/triade-galleryy/car-yellow-portatil-game-head.webp);
+    background-size: cover;
+}
+
+.section-2 .content-container .gallery-container .moldura-container .moldura:nth-child(2) {
+    background-image: url(../img/triade-galleryy/mandalorian-mayhem-3-cars.webp);
+    background-size: cover;
+}
+
+.section-2 .content-container .gallery-container .moldura-container .moldura:nth-child(3) {
+    background-image: url(../img/triade-galleryy/3-cars-boosting.webp);
+    background-size: cover;
+}
+
+.section-2 .content-container .gallery-container .text-container {
+    height: 18%;
+    width: 99.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.section-2 .content-container .gallery-container .text-container .text {
+    width: 33%;
+    height: 95%;
+    background-color: #000000;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content-container .gallery-container .text-container .text p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.section-2 .content-container .this-is-container {
+    width: 99%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.section-2 .content-container .this-is-container .title-gallery {
+    width: 40%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content-container .this-is-container .title-gallery h2 {
+    font-size: 3em;
+    color: #307FE2;
+}
+
+.section-2 .content-container .this-is-container .paragraph-gallery {
+    width: 65%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .content-container .this-is-container .paragraph-gallery p {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    color: #307FE2;
+}
+
+/*--------------SECTION 3--------------*/
+.section-3 {
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+
+.section-3 .sec3-left-box {
+    width: 75%;
+    height: 100%;
+    background-image: url(../img/cars-infos/season-13-theme.jpg);
+    background-size: cover;
+}
+
+.section-3 .sec3-right-box {
+    width: 25%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #CB4001, #FFA133);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em
+}
+
+.section-3 .sec3-right-box .sec3-right-box-title {
+    width: 65%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .sec3-right-box .sec3-right-box-title h2 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.section-3 .sec3-right-box .sec3-right-box-paragraph {
+    width: 95%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .sec3-right-box .sec3-right-box-paragraph p {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.section-3 .sec3-right-box .sec3-right-box-button {
+    width: 65%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-12deg);
+}
+
+.section-3 .sec3-right-box .sec3-right-box-button button {
+    border: none;
+    width: 9em;
+    height: 2.6em;
+    background-color: #307FE2;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.section-3 .sec3-right-box .sec3-right-box-button button:hover {
+    filter: brightness(85%);
+}
+
+/*--------------SECTION 4--------------*/
+.section-4 {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    background-color: rgb(81, 0, 0);
+    
+}
+
+.section-4 .sec4-left-box {
+    width: 25%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #0748D0, #1463DF);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em
+}
+
+.section-4 .sec4-left-box h2 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.section-4 .sec4-left-box p {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.section-4 .sec4-right-box {
+    width: 75%;
+    height: 100%;
+    background-image: url(../img/cars-infos/car--pearl-tv-wheels\ .JPEG);
+    background-size: cover;
+}
+
+/*--------------SECTION 5--------------*/
+.section-5 {
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+
+.section-5 .sec5-left-box {
+    width: 75%;
+    height: 100%;
+    background-image: url(../img/cars-infos/cars-flying.jpg);
+    background-size: cover;
+}
+
+.section-5 .sec5-right-box {
+    width: 25%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #CB4001, #FFA133);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em
+}
+
+.section-5 .sec5-right-box .sec5-right-box-title {
+    width: 65%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 .sec5-right-box .sec5-right-box-title h2 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.section-5 .sec5-right-box .sec5-right-box-paragraph {
+    width: 95%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 .sec5-right-box .sec5-right-box-paragraph p {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.section-5 .sec5-right-box .sec5-right-box-button {
+    width: 65%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-12deg);
+}
+
+.section-5 .sec5-right-box .sec5-right-box-button button {
+    border: none;
+    width: 9em;
+    height: 2.6em;
+    background-color: #307FE2;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.section-5 .sec5-right-box .sec5-right-box-button button:hover {
+    filter: brightness(85%);
+}
+
+/*--------------FOOTER--------------*/
+.footer-container {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer-container .footer-social {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+.footer-container .footer-social .rl-footer {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .footer-social .rl-footer img {
+    width: 70%;
+    cursor: pointer;
+}
+
+.footer-container .footer-social .footer-social-icons {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.footer-container .footer-social .footer-social-icons img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.footer-container .footer-social .footer-social-icons img:hover {
+    filter: brightness(80%);
+}
+
+.footer-container .footer-ul {
+    width: 95%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.footer-container .footer-ul .ul-container {
+    width: 24.5%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .footer-ul .ul-container ul {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.footer-container .footer-ul .ul-container ul li {
+    margin-left: 1em;
+    width: 95%;
+    transition: all 0.2s ease;
+}
+
+.footer-container .footer-ul .ul-container ul li:hover {
+    background-color: #307FE2;
+    cursor: pointer;
+}
+
+.footer-container .footer-ul .ul-container ul li a {
+    font-size: 1.1em;
+    color: #acacac;
+    font-family: sans-serif;
+}
+
+.footer-container .footer-trademark {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.3em;
+}
+
+.footer-container .footer-trademark .trademark {
+    width: 65%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer-container .footer-trademark .trademark .psyonix-box {
+    width: 10%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .footer-trademark .trademark .psyonix-box img {
+    width: 100%;
+}
+
+.footer-container .footer-trademark .trademark .text-box {
+    width: 83%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container .footer-trademark .trademark .text-box p {
+    color: #acacac;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.footer-container .footer-trademark .ersb {
+    height: 80%;
+    width: 17.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .footer-trademark .ersb img {
+    width: 60%;
+}
